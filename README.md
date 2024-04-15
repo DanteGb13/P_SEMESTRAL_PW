@@ -1,3 +1,7 @@
 # P_SEMESTRAL_PW
-VAMOS PA 7 CON FE 
-SI FALTAN LUEGO MAS PESTAÑAS SE AÑADEN EN EL CAMINO
+Block de detalles para avanzar 
+
+carrusel buscar imagen tamaño igual 
+
+investigar formulario con js(semi listo )
+corregir formulario 
