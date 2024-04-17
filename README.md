@@ -1,7 +1,8 @@
 # P_SEMESTRAL_PW
+ccs y html con nombre prueba solo sirve para ir probando lo que se añadira antes de ponerlo al principal para evitar tragedias 
+
 Block de detalles para avanzar 
 
-carrusel buscar imagen tamaño igual 
 
-investigar formulario con js(semi listo )
+investigar formulario con js
 corregir formulario 
