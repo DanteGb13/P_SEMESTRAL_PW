@@ -12,11 +12,11 @@
   
   .form-container:after {
     content: "";
-    background-image: url(/assets/img/img_ing.jpg);
+    background-image: url(/assets/img/imgOP.jpg);
     background-size: cover;
     background-position: center bottom;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
