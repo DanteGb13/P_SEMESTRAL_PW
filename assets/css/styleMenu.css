@@ -1,12 +1,22 @@
 /*Para el menu */
-body {
-    background-color:  rgb(250, 255, 174);
+
+body{
+  background-image:url(/assets/img/img_fondo.jpg) ;
+  display: flex row;
 
 }
 
-#i{
-    color:  #000000;
-  }
+
+  .tamannio_imagen_1 {
+    width: 235px;
+    height: 160px;
+    border-style: solid;
+    border-width: medium;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
   /*Para el footer*/
   .site-footer

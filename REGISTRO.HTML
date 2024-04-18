@@ -1,40 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style_ini_reg.css">
-    <title>ingreso</title>
-</head>
-<body>
-    <div class="container right-panel-active">
-        <!-- Registro -->
-        <div class="container__form container--Registro">
-            <form action="#" class="form" id="form1">
-                <h2 class="form__title">Registro</h2>
-                <input type="text" placeholder="Usuario" class="input" />
-                <input type="email" placeholder="Correo" class="input" />
-                <input type="password" placeholder="contraseña" class="input" />
-                <button class="btn">Registro</button>
-                <nav class="navbar sticky-bottom bg-body-tertiary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Sticky bottom</a>
-                    </div>
-                  </nav>
-                
-            </form>
-        </div>
-    
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style_ini_reg.css">
+
+
+  </head>
+  <body>
+    <section class="form-container">
+      <div class="container-fluid">
+        <form class="form-signup" action="/new" method="POST" id="formulario">
+          <h2 id="form-signup-heading">
+            <p>Registro</p>
+          </h2>
+          <div class="name-container input-box">
+            <label for="name" class="sr-only">Nombre</label>
+            <input type="text" id="name" class="form-control"
+            placeholder="Ingrese su nombre" name="name">
+          </div>
+          <div class="lastname-container input-box">
+            <label for="lastname" class="sr-only">Apellido</label>
+            <input type="text" id="lastname" class="form-control"
+            placeholder="Ingrese su apellido" name="lastname">
+          </div>
+          <div class="email-container input-box">
+            <label for="inputEmail" class="sr-only">
+              Correo Electrónico
+            </label>
+            <input type="text" id="input-email" class="form-control"
+              placeholder="Ingrese su correo electrónico" autofocus="" name="email">
+          </div>
+          <div class="form-group input-box">
+            <label for="inputPassword" class="sr-only">
+              Contraseña
+            </label>
+            <input name="password" type="password" id="input-password" class="form-control" placeholder="Ingrese su contraseña">
+          </div>
+
+          <div class="checkbox ">
+            <label>
+              <input type="checkbox" value="remember-me">
+              <span>Deseo recibir información vía email</span>
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit"><a href="ingreso.html">Registrar</a></button>
+        </form>
+      </div>  
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-        <!-- Overlay -->
-        <div class="container__overlay">
-            <div class="overlay">
-                <div class="overlay__panel overlay--left">
-                    <a class="btn-btn" href="#">Ingresar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+    <script>
+    </script>
+
+  </body>
 </html>
