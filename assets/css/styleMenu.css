@@ -1,15 +1,30 @@
+/*Para el carrusel*/
+
+
+  
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+    overflow: hidden; 
+  }
+  
+
+
 /*Para el menu */
 
-#full-bleed-hero {
-margin:auto ;
-
-}
 
 body{
   background-image:url(/assets/img/img_fondo.jpg) ;
+
+  background-size: row;
+  background-position: center;
   display: flex row;
 
 }
+
 
 
   .tamannio_imagen_1 {
