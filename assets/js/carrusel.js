@@ -5,4 +5,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
       ride: 'carousel'
     });
   });
+  //finalizado"esto solo es el auto pase del slider"
   
