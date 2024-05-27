@@ -12,7 +12,7 @@
   
   .form-container:after {
     content: "";
-    background-image: url(/assets/img/imgOP.jpg);
+    background-image: url(/assets/img/fonDO_ent.jpg);
     background-size: cover;
     background-position: center bottom;
     position: absolute;
