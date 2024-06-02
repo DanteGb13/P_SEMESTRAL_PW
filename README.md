@@ -4,13 +4,9 @@ PENDIENTE !!!!!!!!!!!!!!!!!
 
  Uso y validación de formularios utilizando Javascript y Jquery
 
- Utiliza un framework de front-end.
-
  Correcta separación de funciones y re utilización de funciones
 
  Llamado de elementos a través del DOM con Javascript y/o Jquery.
-
- Crear páginas y cargas dinámicas.
 
  Consumo de al menos 2 apis.
 
