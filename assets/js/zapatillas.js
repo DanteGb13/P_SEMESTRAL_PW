@@ -1,24 +1,18 @@
 import { enviarDatos } from "./zapatilla.js";
 
-document.addEventListener('DOMContentLoaded', () => {
-    fetch('https://api-zapatillas-armr.onrender.com/')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            if (data && Array.isArray(data.zapatillas)) {
-                crearTarjetas(data.zapatillas);
-            } else {
-                console.error('Expected an array but got:', data);
-            }
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-        });
-});
+const obtenerZapatillas = async () => {
+    try {
+        const response = await fetch('https://api-zapatillas-armr.onrender.com/');
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        return data.zapatillas;
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+    }
+};
+
 
 const crearTarjetas = (zapatillas) => {
 
