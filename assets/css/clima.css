@@ -21,14 +21,14 @@ body{
 .container{
     position: relative;
     width: 400px;
-    height: 555px;
+    height: 100px;
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(30px);
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius:16px ;
     padding: 20px;
     color: #fff;
-
+    transition: height .6s ease;
 }
 
 .search-box{
@@ -85,6 +85,31 @@ body{
     text-align: center;
     margin-top: 40px 0;
 }
+.weather-box,
+.weather-details,
+.not-found{
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.weather-box.activate,
+.weather-details.activate,
+.not-found.activate{
+    visibility: visible;
+}
+
+.weather-box .box,
+.not-found .box{
+    transform: translateY(-100%);
+}
+
+.weather-box.activate .box,
+.not-found.activate .box{
+    transform: translateY(-0%);
+    transition: transform 1s ease;
+    transition-delay: .6s;
+}
+
 
 .weather-box img{
     width: 60%;
@@ -119,12 +144,22 @@ body{
     padding: 0 20px;
     display: flex;
 }
+
 .weather-details .humidity,
 .weather-details .wind {
     display: flex;
     align-items: center;
     width: 50%;
+    transform: translateYT(-100%);
 }
+
+.weather-details.activate .humidity,
+.weather-details.activate .wind {
+    transform: translateYT(0%);
+    transition: transform 1s ease;
+    transition-delay: 1.2s ;
+}
+
 .weather-details .humidity{
     padding-left: 20px;
     justify-content: flex-start;
@@ -152,4 +187,23 @@ body{
     font-size: 14px;
     font-weight: 500;
 
+}
+
+.not-found{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.not-found img {
+    width:65% ;
+}
+
+.not-found p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
 }

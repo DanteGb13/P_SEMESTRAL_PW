@@ -8,13 +8,15 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <!--Para el api del clima -->
     <div class="container">
         <div class="search-box">
             <i class='bx bx-map'></i>
-            <input type="text" placeholder="ingresa tu localidad">
+            <input type="text" placeholder="ingresa tu pais">
             <button class="bx bx-search" ></button>
         </div>
+        <p class="city-hide">Pais</p>
+
 
         <div class="weather-box">
             <div class="box">
@@ -23,7 +25,7 @@
                         <div class="weather">
                             <img src="/assets/img/cloud.png">
                             <p class="temperatura">0<span>°C</span></p>
-                            <p class="descripcion">broken clouds</p>
+                            <p class="descripcion">nubes partidas</p>
                         </div>
                     </div>
                 </div>
@@ -54,9 +56,15 @@
 
 
         </div>
+
+        <div class="not-found">
+            <div class="box"></div>
+            <img src="/assets/img/404.png" >
+            <p>Oops! no se encontro el pais!</p>
+        </div>
     </div>
     
-
+        <!--fin api del clima -->
 
 
 

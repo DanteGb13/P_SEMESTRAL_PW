@@ -8,7 +8,7 @@ PENDIENTE !!!!!!!!!!!!!!!!!
 
  Llamado de elementos a través del DOM con Javascript y/o Jquery.
 
- Consumo de al menos 2 apis.
+ Consumo de al menos 2 apis.////Listo
 
  Uso y creación de datos (arreglo de objetos) desde mi formulario.
 
