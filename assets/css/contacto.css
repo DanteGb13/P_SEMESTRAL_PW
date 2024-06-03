@@ -1,6 +1,6 @@
 
 body{
-    background-image:url(/assets/img/img_fondo.jpg) ;
+    background-image:url(/assets/img/fondoZapa.jpg) ;
     display: flex row; 
   }
 h1{
@@ -12,89 +12,80 @@ h1{
 h1 p {
     color: white;
 }
-.contact {
-    margin-top: 90px;
-  }
+section{
+  display:flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
   
-  .contact .main_form h3 {
-    color: #4b4b4c;
-    font-size: 27px;
-    line-height: 30px;
-    text-align: center;
-    display: block;
-    font-weight: 600;
-    padding: 0;
-  }
+}
+
+section h1{
+  font-size: 3em;
   
-  #map {
-    height: 100%;
-    min-height: 732px;
-  }
+}
+
+section h2{
+
+  text-align:center;
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 2.5em
+}
+
+section form{
+  padding: 1.5em;
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
   
-  .main_form {
-    position: absolute;
-    z-index: 999;
-    background: #fff;
-    padding: 40px 50px;
-    margin-top: 107px;
-  }
-  
-  .main_form .contactus {
-    border-bottom: #111111 solid 1px;
-    margin-bottom: 25px;
-    width: 100%;
-    height: 57px;
-    background: transparent;
-    color: #4b4b4c;
-    font-size: 18px;
-    font-weight: normal;
-    border-top: inherit;
-    border-left: inherit;
-    border-right: inherit;
-  }
-  
-  .main_form .contactusmess {
-    border-bottom: #111111 solid 1px;
-    margin-bottom: 25px;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 14px;
-    background: transparent;
-    color: #4b4b4c;
-    ;
-    font-size: 18px;
-    font-weight: normal;
-    border-top: inherit;
-    border-left: inherit;
-    border-right: inherit;
-  }
-  
-  .send_btn {
-    background: #03cafc;
-    font-weight: 600;
-    font-size: 18px;
-    width: 100%;
-    color: #fff;
-    height: 50px;
-    border-radius: 30px;
-    margin-top: 20px;
-    transition: ease-in all 0.5s;
-    text-transform: uppercase;
-  }
-  
-  .send_btn:hover {
-    background: #4b4b4c;
-    transition: ease-in all 0.5s;
-  }
-  
-  #request *::placeholder {
-    color: #4b4b4c;
-    opacity: 1;
-  }
-  
-  
-  /** end contact section **/
-  
+}
+
+section form label{
+  width: 100%;
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+
+}
+
+section form input{
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.8em;
+  border-radius: 9px;
+  border: none;
+  outline-color: #003DFF;
+  background-color: #eee;
+}
+
+section form input[type='submit']{
+  margin-top: 1.5em;
+  background-color: #003DFF;
+  color: #fff;
+  font-family: var(--font-mono);
+  transition: var(--transition);
+} 
+
+section form input[type='submit']:active{
+  transform: scale(0.97);
+}
+
+section p{
+  margin-top: 1.5em;
+  color: #fff;
+}
+
+
+section p a{
+  text-decoration: none;
+  color: #003DFF;
+}
+
   
   /*---------------------------------------------------------------------------------------------------------------*/
   
