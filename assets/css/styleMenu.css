@@ -16,17 +16,28 @@
 /*Para el menu */
 
 
-body{
-  background-image:url(/assets/img/img_fondo.jpg) ;
+body {
 
-  background-size: row;
+  background-image: url('/assets/img/fondoZapa.jpg');
+  background-size: cover;
   background-position: center;
-  display: flex row;
+  
 
+  display: flex;
+  flex-direction: column; 
+
+ 
+  height: 100vh;
+  margin: 0; 
 }
 
 
+#map {
+  height: 100%;
+  min-height: 400px;
+}
 
+/* Cards del menu */
   .tamannio_imagen_1 {
     width: 235px;
     height: 160px;
@@ -36,7 +47,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+body h1{
+  color: #fbf6f6;
+  text-align: center;
+  min-height: 75px;
+}
 
   /*Para el footer*/
   .site-footer

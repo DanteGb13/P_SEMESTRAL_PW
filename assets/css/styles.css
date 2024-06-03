@@ -1,22 +1,20 @@
-/*Para el footer*/
-.tamannio_imagen_1 {
-    width: 235px;
-    height: 160px;
-    border-style: solid;
-    border-width: medium;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 /*body*/
-body{
-  background-image:url(/assets/img/img_fondo.jpg) ;
+body {
 
-  background-size: row;
+  background-image: url('/assets/img/fondoZapa.jpg');
+  background-size: cover;
   background-position: center;
-  display: flex row;
+  
 
+  display: flex;
+  flex-direction: column; 
+
+ 
+  height: 100vh;
+  margin: 0; 
 }
+
 
 
 /*color de los logos*/
