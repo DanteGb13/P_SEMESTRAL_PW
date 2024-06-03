@@ -39,9 +39,16 @@ search.addEventListener('click' , () => {
             cityHide.textContent = city;
                 
             container.style.height ='555px'
+            container.classList.add('activate');
             weatherBox.classList.add('activate');
             weatherDetails.classList.add('activate');
             error404.classList.remove('activate');
+
+            setTimeout(()=>{
+                container.classList.remove('activate');
+
+            })
+
 
             switch(json.weather[0].main){
                 case 'Clear':
