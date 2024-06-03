@@ -4,12 +4,12 @@ const obtenerZapatillas = async () => {
     try {
         const response = await fetch('https://api-zapatillas-armr.onrender.com/');
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('Hubo un error en la red');
         }
         const data = await response.json();
         return data.zapatillas;
     } catch (error) {
-        console.error('There was a problem with the fetch operation:', error);
+        console.error('Hubo un problema con el fetch:', error);
     }
 };
 
