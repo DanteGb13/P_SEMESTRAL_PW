@@ -1,10 +1,8 @@
 PENDIENTE !!!!!!!!!!!!!!!!!
 
- Uso y manejo de arrays con Javascript.(NOSE SI ESTE LISTO, im confused XD)
+ Sesiones y un carro de compra con Local y/o Session Storage.///listo
 
- Sesiones y un carro de compra con Local y/o Session Storage.(INICIO DE SECION LISTO, FALTA Carrito de compras)
-
- Correcta separación de funciones y re utilización de funciones  
+ Correcta separación de funciones y re utilización de funciones   ///listo
 
  Uso y validación de formularios utilizando Javascript y Jquery///listo
 
